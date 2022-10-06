@@ -1,0 +1,72 @@
+body{
+    font-family: Tajawal;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(33, 33, 34, 0.466) ,rgba(33, 33, 34, 0.466) ) , url("../images/books\ wp.jpg");
+    background-position: center;
+    background-size: cover;
+     
+
+}
+
+.navbar{
+    box-shadow: 0 3px 10px rgb(33, 33, 34) ;
+}
+
+.navbar-brand , .nav-link{
+     color:rgb(207, 207, 221);
+    
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-right: 20px !important;
+}    
+
+.nav-link.active , .nav-link :hover {
+    color:rgb(207, 207, 221)!important;
+   
+}
+
+footer{
+    padding: 40px 0px;
+    background-color: #31D2F2;
+    color: #05090C;
+}
+footer p{
+    text-align: center;
+    margin-top: 20px;
+    color: #05090C; 
+}
+
+
+.footer-nav , .social-nav{
+    list-style: none;
+    display: flex;
+    
+}
+.social-nav{
+    float: right;
+
+}
+.footer-nav li , .social-nav li{
+    margin-right: 20px;
+    
+}
+.footer-nav li a , .social-nav li a{
+   text-decoration: none;
+   color: #05090C;    
+}
+.footer-nav li a:hover, .social-nav li a:hover{
+   text-decoration: underline;
+   color: #05090C;    
+}
+.momo{
+    font-size: 20px;
+}
+
+
+
+
